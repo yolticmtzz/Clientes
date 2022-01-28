@@ -1,0 +1,19 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshworks_crm": {
+      "location": {
+        "full_page_app": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": ["https://pokeapi.co",
+     "https://pic-backend-production.azurewebsites.net"],
+  "engines": {
+    "node": "12.22.1",
+    "fdk": "7.3.0"
+  }
+}

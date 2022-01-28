@@ -1,0 +1,21 @@
+CREATE TABLE Relationship_Record(
+	Id INT PRIMARY KEY IDENTITY NOT NULL,
+	Client VARCHAR(255) NOT NULL,
+	Product_Operator VARCHAR(255) NOT NULL,
+	Category VARCHAR(255) NOT NULL,
+	Subcategory VARCHAR(255) NOT NULL,
+	Sla VARCHAR(255) NOT NULL,
+	[Active] BIT NOT NULL
+);
+
+CREATE TABLE [TimeStamp](
+	Id INT PRIMARY KEY IDENTITY NOT NULL,
+	Ticket_Id INT NOT NULL,
+	Client VARCHAR(255) NOT NULL,
+	Value_Product_Operator VARCHAR(255) NOT NULL,
+	Value_Category VARCHAR(255) NOT NULL,
+	Value_SubCategory VARCHAR(255) NOT NULL,
+	Key_Product_Operator VARCHAR(255) NOT NULL,
+	Key_Category VARCHAR(255) NOT NULL,
+	Key_SubCategory VARCHAR(255) NOT NULL	
+);
