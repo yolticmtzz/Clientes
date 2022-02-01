@@ -1,0 +1,25 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "events": {
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        },
+        "onTicketUpdate": {
+          "handler": "onTicketUpdateHandler"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://extcare090.freshdesk.com",
+    "https://webhook.site",
+    "https://dor-backend-homologation.azurewebsites.net",
+    "https://81de-179-98-174-160.ngrok.io"
+  ],
+  "engines": {
+    "node": "12.22.1",
+    "fdk": "7.1.0"
+  }
+}

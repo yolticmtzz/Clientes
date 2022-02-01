@@ -1,0 +1,24 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "events": {
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        },
+        "onTicketUpdate": {
+          "handler": "onTicketUpdateHandler"
+        }
+      },
+      "whitelisted-domains": [
+        "https://dorconsultoria.freshdesk.com",
+        "https://webhook.site",
+        "https://dor-backend-production.azurewebsites.net"
+      ]
+    }
+  },
+  "engines": {
+    "node": "12.22.1",
+    "fdk": "7.3.0"
+  }
+}
